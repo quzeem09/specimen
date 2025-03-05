@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display flex & grid</title>
+    <link rel="stylesheet" href="style.css1">
+</head>
+
+<body>
+ <nav>
+   <h1>
+    <span>QUZEEM</span> AJAO 
+   </h1> 
+   <ul>
+    <li>home</li>
+    <li>feature</li>
+    <li>About</li>
+     <li>Pricing</li>
+   </ul>
+ </nav>
+ <section >
+    <h1>introduction to fashion</h1>
+ </section>
+
+ <section class="first">
+<div class="card">
+  <p>Lorem ipsum dolor sit amet 
+    consectetur adipisicing elit. 
+    Ex harum, placeat nihil nobis 
+    commodi obcaecati nulla quasi quos
+     cum enim illum exercitationem 
+     voluptate quae impedit quo rerum 
+     beatae quidem laborum corrupti 
+     repellat, voluptates earum pariatur?
+</p> <button>submit here</button>
+</div>
+<div class="card">
+  <p>Lorem ipsum dolor sit amet
+    consectetur adipisicing elit.
+    Ex harum, placeat nihil nobis
+    commodi obcaecati nulla quasi quos
+    cum enim illum exercitationem
+    voluptate quae impedit quo rerum
+    beatae quidem laborum corrupti
+    repellat, voluptates earum pariatur?
+  </p> <button>submit here</button>
+</div>
+<div class="card">
+  <p>Lorem ipsum dolor sit amet
+    consectetur adipisicing elit.
+    Ex harum, placeat nihil nobis
+    commodi obcaecati nulla quasi quos
+    cum enim illum exercitationem
+    voluptate quae impedit quo rerum
+    beatae quidem laborum corrupti
+    repellat, voluptates earum pariatur?
+  </p> <button>submit here</button>
+</div>
+<div class="card">
+  <p>Lorem ipsum dolor sit amet
+    consectetur adipisicing elit.
+    Ex harum, placeat nihil nobis
+    commodi obcaecati nulla quasi quos
+    cum enim illum exercitationem
+    voluptate quae impedit quo rerum
+    beatae quidem laborum corrupti
+    repellat, voluptates earum pariatur?
+  </p> <button>submit here</button>
+</div>
+ </section>
+
+</body>
+</html>
