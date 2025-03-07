@@ -57,6 +57,7 @@ height: 300px;
 padding: 20px;    
 border-radius: 5px ;
 
+
 }
 
 .card button {
@@ -72,12 +73,48 @@ border-radius: 5px ;
 }
 
 .first {
-display: grid;
-grid-template-columns: 1fr 1fr 1fr ;
+display: flex;
+/* grid-template-columns: 1fr 1fr 1fr ; */
 /* grid-template-rows: -200px; */
 gap: 20px;
 justify-content: center;
 align-items: center;
-padding: 20px 100px;
+padding: 30px ;
+flex-wrap: wrap;
+}
+.menu {
+    display: none;
+}
+@media screen and (max-width:470px){
+    /* body{ width:400px ;} */
+    nav {
+        padding: 5px 10px;
 
+    }
+    h1{
+        font-size: 20px;
+
+    }
+.menu{
+    display: block;
+}
+    
+ul{
+    display: none;
+}
+/* .first {
+    
+    grid-template-columns: 1fr ; */
+}
+section {
+    height: 100vh;
+}
+section h1 {
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-size: 40px;
+}
 }
